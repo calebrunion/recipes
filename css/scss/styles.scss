@@ -9,10 +9,12 @@ html {
 body { 
   display: flex; 
   flex-direction: column; 
+  padding: .3em;
 }
 
 header { 
   width:100%;
+  font-size: 18px;
 }
 
 main { 
