@@ -1,0 +1,37 @@
+@import "_normalize.scss";
+$phone-breakpoint: 760px; 
+$tablet-breakpoint: 975px;
+
+html { 
+  font-size: 16px; 
+}
+
+body { 
+  display: flex; 
+  flex-direction: column; 
+}
+
+header { 
+  width:100%;
+}
+
+main { 
+  flex: 1; 
+  color: red;
+}
+
+footer { 
+  width: 100%; 
+}
+
+sup { 
+  font-size: 25%; 
+  line-height: 0;
+  position: relative; 
+  vertical-align: baseline; 
+  top: -2.25em; 
+}
+
+
+
+@import "_attribute-styles.scss";
