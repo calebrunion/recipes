@@ -322,10 +322,12 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: .3em; }
 
 header {
-  width: 100%; }
+  width: 100%;
+  font-size: 18px; }
 
 main {
   -webkit-box-flex: 1;
