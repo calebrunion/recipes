@@ -1,5 +1,5 @@
 @import "_normalize.scss";
-$phone-breakpoint: 760px; 
+$phone-breakpoint: 760px;
 $tablet-breakpoint: 975px;
 
 
@@ -17,27 +17,27 @@ body {
 	}
 }
 
-header { 
+header {
 	width: 100%;
 	font-size: 1.4em;
-} 
+}
 
-main { 
-  flex: 1; 
+main {
+	flex: 1;
 	font-size: 18px;
 
 }
 
-footer { 
-  width: 100%; 
+footer {
+	width: 100%;
 }
 
-sup { 
-  font-size: 25%; 
-  line-height: 0;
-  position: relative; 
-  vertical-align: baseline; 
-  top: -2.25em; 
+sup {
+	font-size: 25%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	top: -2.25em;
 }
 
 
