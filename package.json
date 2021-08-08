@@ -1,0 +1,26 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "npx tailwindcss    -i ./src/app.css    -o ./dist/build.css    --watch --minify",
+    "production": "NODE_ENV=production npx tailwindcss -i ./src/app.css -o ./dist/build.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebrunion/recipes.git"
+  },
+  "author": "Caleb Runion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebrunion/recipes/issues"
+  },
+  "homepage": "https://github.com/calebrunion/recipes#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
