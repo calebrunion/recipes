@@ -4,8 +4,10 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "npx tailwindcss    -i ./src/app.css    -o ./dist/build.css    --watch --minify",
-    "production": "NODE_ENV=production npx tailwindcss -i ./src/app.css -o ./dist/build.css --minify"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,13 @@
   },
   "homepage": "https://github.com/calebrunion/recipes#readme",
   "dependencies": {
-    "tailwindcss": "^2.2.7"
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.5"
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }

@@ -1,7 +1,7 @@
 module.exports = {
     mode: 'jit',
 
-    purge: ['./dist/**/*.html'],
+    purge: ['./src/pages/**/*.{js,ts,jsx,tsx}'],
 
     theme: {
         fontFamily: {
